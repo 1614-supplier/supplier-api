@@ -6,7 +6,14 @@
 	<groupId>com.supplier.api</groupId>
 	<artifactId>supplier-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-core</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
+    <packaging>jar</packaging>
 
 	<name>supplier-api</name>
 	<description>Demo project for Spring Boot</description>
